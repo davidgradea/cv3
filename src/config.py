@@ -6,8 +6,8 @@ SPLITS_DIR = ROOT / "data" / "splits"
 OUTPUTS_DIR = ROOT / "outputs"
 CHECKPOINTS_DIR = OUTPUTS_DIR / "checkpoints"
 
-
-CLASSES = ["neutrophil", "eosinophil", "lymphocyte", "monocyte", "ig", "erythroblast"]
+# Cele 6 clase de celule folosite (basophil si platelet sunt excluse)
+CLASSES =["neutrophil", "eosinophil", "lymphocyte", "monocyte", "ig", "erythroblast"]
 
 IMAGES_PER_CLASS = 750
 SPLIT_RATIOS = (0.70, 0.15, 0.15)  # train / val / test
